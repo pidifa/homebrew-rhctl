@@ -1,11 +1,11 @@
 # homebrew-rhctl
 
-Homebrew tap for [rhctl](https://github.com/saidake/rhctl).
+Homebrew tap for [rhctl](https://github.com/pidifa/rhctl).
 
 ## Install
 
 ```bash
-brew install saidake/rhctl/rhctl
+brew install pidifa/rhctl/rhctl
 ```
 
 ## Update
