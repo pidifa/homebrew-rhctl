@@ -1,24 +1,24 @@
 class Rhctl < Formula
   desc "High-performance Rust CLI tool for remote host management"
   homepage "https://github.com/pidifa/rhctl"
-  version "1.0.8"
+  version "1.0.9"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/pidifa/rhctl/releases/download/v1.0.8/rhctl-v1.0.8-macos-arm64"
-      sha256 "e3b073216a56baf36f7a8f49fab6f1e19d5604a4639576d09fb244eb3977fe69"
+      url "https://github.com/pidifa/rhctl/releases/download/v1.0.9/rhctl-v1.0.9-macos-arm64"
+      sha256 "8ebe24315f35514e4c40e475af4a0c3843d1ccb25de77df1a52c3657d5b47446"
     end
     on_intel do
-      url "https://github.com/pidifa/rhctl/releases/download/v1.0.8/rhctl-v1.0.8-macos-x86_64"
-      sha256 "702b778ab5b8a45c7ffdaa84b797bd985545a9aceb82dfd1010db69476c7f6b7"
+      url "https://github.com/pidifa/rhctl/releases/download/v1.0.9/rhctl-v1.0.9-macos-x86_64"
+      sha256 "aabc5c404b841e27833263ccf94877a74f5f41691f56775de335e4713e3f478b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pidifa/rhctl/releases/download/v1.0.8/rhctl-v1.0.8-linux-x86_64"
-      sha256 "13caf60c56f0a4e2a2ed0d9d1f89520dc61fa3c0bc17f0c37cdf0e8372410901"
+      url "https://github.com/pidifa/rhctl/releases/download/v1.0.9/rhctl-v1.0.9-linux-x86_64"
+      sha256 "2be97db4f42410a955d596556307399932dfd1cd6a2fbb14134a99d5a9c54f75"
     end
   end
 
